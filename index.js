@@ -18,3 +18,5 @@ function destructivelyRemoveFirstDriver(){
   drivers.shift()
   return drivers
 }
+
+const appendDriver = [...drivers, "Broom"]
