@@ -24,5 +24,5 @@ function appendDriver(){
 }
 
 function prependDriver(){
-  return ["Arnold, ...drivers"]
+  return ["Arnold", ...drivers]
 }
